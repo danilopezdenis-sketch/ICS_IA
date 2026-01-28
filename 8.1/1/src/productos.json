@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado mecánico",
+    "price": 79.99,
+    "image": "/img/teclado.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ratón gaming",
+    "price": 39.5,
+    "image": "/img/raton.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Monitor 27\" IPS",
+    "price": 249.0,
+    "image": "/img/monitor.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Auriculares inalámbricos",
+    "price": 59.99,
+    "image": "/img/auriculares.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Alfombrilla XL",
+    "price": 19.9,
+    "image": "/img/alfombrilla.jpg"
+  }
+]
