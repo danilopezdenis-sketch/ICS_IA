@@ -1,5 +1,9 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "react-router-dom": "^7.12.0"
+=======
+    "react-router-dom": "^7.13.0"
+>>>>>>> 237d968f4fcb1a8979e27b27706756cdaf0c51e6
   }
 }
