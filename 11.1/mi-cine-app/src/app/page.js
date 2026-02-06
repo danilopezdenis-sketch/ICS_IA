@@ -1,4 +1,3 @@
-// src/app/page.js
 export default function Home() {
   return (
     <main style={{ padding: '20px' }}>

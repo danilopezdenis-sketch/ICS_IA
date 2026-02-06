@@ -6,7 +6,6 @@ export const getMovieById = (id) => MOVIES.find(m => m.id === id);
 export const getAllActors = () => ACTORS;
 export const getActorById = (id) => ACTORS.find(a => a.id === id);
 
-// Lógica para el Reparto (Pelicula -> Actores)
 export const getCastByMovieId = (movieId) => {
   return ROLES
     .filter(r => r.movieId === movieId)
@@ -16,7 +15,6 @@ export const getCastByMovieId = (movieId) => {
     }));
 };
 
-// Lógica para la Filmografía (Actor -> Películas)
 export const getFilmographyByActorId = (actorId) => {
   return ROLES
     .filter(r => r.actorId === actorId)
