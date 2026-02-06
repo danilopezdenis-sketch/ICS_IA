@@ -5,7 +5,7 @@ export default function MoviesPage() {
   const movies = getAllMovies();
   return (
     <main style={{ padding: '20px' }}>
-      <h1>🎬 Explorar Películas</h1>
+      <h1>Explorar Películas</h1>
       <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
         {movies.map(m => (
           <div key={m.id} style={{ width: '150px' }}>
